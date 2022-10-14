@@ -1,0 +1,8 @@
+#To sort 3-D numpy array
+arr3 = np.array([[[1,2],[4,3],[6,5]]]) 
+np.sort(arr3)
+
+#To search value using where() in 3-D numpy array
+#To search an array, use the where() method to find pos. of same value at diff. indexes
+arr4 = np.array([[[1,2,2,3],[2,3,2,4],[3,4,5,4]]])           
+np.where(arr4==3)  
